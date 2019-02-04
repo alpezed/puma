@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Puma - Multipurpose Theme</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="css/responsive.css" />
+<link rel="stylesheet" href="css/extend-puma.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+    <!-- REVOLUTION JS FILES -->
+  	<script type="text/javascript" src="js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+  	<script type="text/javascript" src="js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+</head>
+<body>
+	<div id="slide-out-menu-area-bg" class="push-content-from-right light"></div>
+    <div id="slide-out-menu-area" class="fullscreen light">
+		<div id="dl-menu" class="off-canvas-menu dl-menuwrapper">
+			<ul class="dl-menu puma-menu">
+				<li><a href="#">Home</a></li>
+				<li class="has-children"><a href="#">Page</a>
+					<ul class="dl-submenu">
+						<li><a href="post-single.html">Single Post</a></li>
+						<li><a href="about.html">About</a></li>
+<li><a href="about-me.html">About Me</a></li>
+					</ul>				</li>
+				<li class="has-children"><a href="#">Portfolio</a>
+					<ul class="dl-submenu">
+						<li><a href="portfolio-01.html"><span>Portfolio 01</span></a></li>
+						<li><a href="portfolio-02.html"><span>Portfolio 02 </span></a></li>
+						<li><a href="portfolio-03.html"><span>Portfolio 03</span></a></li>
+						<li><a href="portfolio-04.html"><span>Portfolio 04 </span></a></li>
+						<li class="has-children"><a href="#"><span>Portfolio Single </span></a>
+							<ul class="dl-submenu">
+								<li><a href="portfolio-single-01.html"><span>Portfolio Single 01</span></a></li>
+								<li><a href="portfolio-single-02.html"><span>Portfolio Single 02</span></a></li>
+								<li><a href="portfolio-single-03.html"><span>Portfolio Single 03</span></a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="has-children"><a href="blog-standard.html">Blog</a>
+					<ul class="dl-submenu">
+						<li><a href="blog-standard.html">Blog Standard</a></li>
+						<li><a href="blog-list.html">Blog List</a></li>
+						<li><a href="blog-grid.html">Blog Grid</a></li>
+					</ul>
+				</li>
+				<li class="has-children"><a href="shop-left-sidebar.html">Shop</a>
+					<ul class="dl-submenu">
+						<li><a href="shop-left-sidebar.html">Shop Left Sidebar</a></li>
+						<li><a href="shop-fullwidth.html">Shop Fullwidth</a></li>
+						<li><a href="shop-grid.html">Shop Grid</a></li>
+						<li><a href="shop-single.html">Shop Single</a></li>
+					</ul>
+				</li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		
+		<footer id="fullscreen-menu-footer">
+			<div class="footer--copyright clearfix">
+				<div class="container-full">
+					<p class="copyright pull-left">Copyright &copy; 2017 Puma Theme</p>
+					<div class="footer--social pull-right">
+						<ul class="social--icons list-inline">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+						</ul>
+					</div>	
+				</div>
+			</div>
+		</footer>
+	</div>
+	
+	<header id="header-search">
+		<div class="puma_search">
+			<form method="get" class="search-form" action="#">
+				<label class="screen-reader-text">Search for:</label>
+				<input type="search" class="search-field" placeholder="Search…" value="" name="s">
+				<input type="submit" class="search-submit" value="Search">
+			</form>
+			<p class="search-desc">Press Enter To Begin Your Search</p>
+		</div>
+		<div class="close_btn">
+			<div class="side-icon-holder search-close-icon"><span class="ti-close"></span></div>
+		</div>
+	</header>
+	<div id="search-overlay-bg"></div>
+	
+	<header id="header-outer" data-header="boxed" data-has-topbar="true" data-header-top-bar="true" data-menu-format="centered" class="header-1 header-top header-nav-md nav-static" data-format="center-menu">
+		
+		<div class="top-bar">
+			<div class="container">
+				<div class="topbox-box clearfix">
+					<div class="tb-left">
+						<ul class=" contact-info list-inline">
+							<li><a href="tel:1-800-666-888"><i class="fa fa-phone"></i> 1-800-666-888</a></li>
+							<li><i class="fa fa-map-marker"></i> 14 Tottenham Court Road, UK</li>
+							<li><i class="fa fa-clock-o"></i> Monday to Saturday 7.00 - 18:00</li>
+						</ul>
+					</div>
+					<div class="tb-right">
+						<ul class="list-inline">
+							<li><a href="#">Theme Documentation</a></li>
+							<li><a href="#" class="puma-search-icon"><i class="fa fa-search"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+		    <div class="row">
+	    		<div class="col-md-3">
+	      			<a id="logo" href="home-01.html">
+                        <img class="logo" src="images/logo-puma-text-dark.png" alt="Logo">
+                    </a>
+			    </div>
+
+			    <div class="col-md-9">
+			    	<ul class="header-button header-social-icon social--icons social-icon-light pull-right list-inline">
+		            	<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+		            	<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+		            	<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+		            	<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+		            </ul>
+			    	<ul class="header-nav p-menu p-js-enabled pull-right">
+						<li class="active"><a href="home-01.html">Home</a></li>
+						<li class="menu-item-has-children"><a href="#">Page</a>
+							<ul class="sub-menu">
+								<li><a href="post-single.html">Single Post</a></li>
+								<li><a href="about.html">About</a></li>
+<li><a href="about-me.html">About Me</a></li>
+							</ul>
+						</li>
+						<li class="menu-item-has-children"><a href="portfolio-01.html">Portfolio</a>
+							<ul class="sub-menu">
+								<li><a href="portfolio-01.html"><span>Portfolio 01</span></a></li>
+								<li><a href="portfolio-02.html"><span>Portfolio 02 </span></a></li>
+								<li><a href="portfolio-03.html"><span>Portfolio 03</span></a></li>
+								<li><a href="portfolio-04.html"><span>Portfolio 04 </span></a></li>
+								<li class="has-children"><a href="#"><span>Portfolio Single </span></a>
+									<ul class="sub-menu">
+										<li><a href="portfolio-single-01.html"><span>Portfolio Single 01</span></a></li>
+										<li><a href="portfolio-single-02.html"><span>Portfolio Single 02</span></a></li>
+										<li><a href="portfolio-single-03.html"><span>Portfolio Single 03</span></a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="menu-item-has-children"><a href="blog-standard.html">Blog</a>
+							<ul class="sub-menu">
+								<li><a href="blog-standard.html">Blog Standard</a></li>
+								<li><a href="blog-list.html">Blog List</a></li>
+								<li><a href="blog-grid.html">Blog Grid</a></li>
+							</ul>
+						</li>
+						<li class="menu-item-has-children"><a href="shop-left-sidebar.html">Shop</a>
+							<ul class="sub-menu">
+								<li><a href="shop-left-sidebar.html">Shop Left Sidebar</a></li>
+								<li><a href="shop-fullwidth.html">Shop Fullwidth</a></li>
+								<li><a href="shop-grid.html">Shop Grid</a></li>
+								<li><a href="shop-single.html">Shop Single</a></li>
+							</ul>
+						</li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+           			<a href="#" class="toggle-menu-button toggle-menu-button-mobile closed">
+						<span><i class="lines-button x2"><i class="lines"></i></i></span>
+					</a>
+	            </div>
+
+		    </div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</header>
+	
+	<!-- Slider Section -->
+	<div class="home-section fullscreen-container" id="home-business">
+        <div class="tp-banner-container">
+            <div class="tp-banner bg-dark" data-start-width="1170" data-start-height="800" data-nav-type="bullet" data-nav-arrows="none" data-fullscreen="off">
+                <ul>
+                    <!-- SLIDE  -->
+                    <li data-transition="fade" data-slotamount="5" data-masterspeed="700">
+                      	<!-- MAIN IMAGE -->
+						<img src="images/home-sliders/business/slide-01.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                       	
+                       	<div class="slide-content">
+							<!-- LAYER NR. 1 -->
+							<div class="tp-caption puma-slider__title puma-slider__title-uc-md sft"
+								data-x="center" 
+								data-hoffset="300" 
+								data-y="center" 
+								data-voffset="-50" 
+								data-speed="800"
+								data-start="1200"
+								data-easing="Power4.easeOut"
+								data-endspeed="300"
+								data-endeasing="Power1.easeIn"
+								data-captionhidden="off"
+								style="z-index: 4">EASY TO BUILD<br>PERFECT WEBSITE
+							</div>
+
+							<!-- LAYER NR. 2-->
+							<div class="tp-caption puma-slider__subtitle-02 sft customout"
+								data-x="center" 
+								data-hoffset="300" 
+								data-y="center" 
+								data-voffset="60" 
+								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="1000"
+								data-start="1300"
+								data-easing="Back.easeOut"
+								data-endspeed="500"
+								data-endeasing="Power4.easeIn"
+								data-captionhidden="on"
+								style="z-index: 6">Diam felis laoreet, a sapien nunc fusce non morbi nam 
+
+							</div>
+
+							<!-- LAYER NR. 3 -->
+							<div class="tp-caption puma-slider__subtitle sfb"
+								data-x="center" 
+								data-hoffset="210" 
+								data-y="center" 
+								data-voffset="150"
+								data-speed="1000"
+								data-start="1800"
+								data-easing="Back.easeOut"
+								data-endspeed="500"
+								data-endeasing="Power4.easeIn"
+								data-captionhidden="on"
+								style="z-index: 8"><a href="#" class="btn btn-default btn-primary sl--btn btn-blue sl-btn-fwsl sl-btn-left">View More</a>
+							</div>
+
+							<!-- LAYER NR. 4 -->
+							<div class="tp-caption puma-slider__subtitle sfb"
+								data-x="center" 
+								data-hoffset="400" 
+								data-y="center" 
+								data-voffset="150"
+								data-speed="1000"
+								data-start="1800"
+								data-easing="Back.easeOut"
+								data-endspeed="500"
+								data-endeasing="Power4.easeIn"
+								data-captionhidden="on"
+								style="z-index: 8"><a href="#" class="btn btn-default btn-primary sl--btn sl-btn-fwsl sl-btn-right">Purchase</a>
+							</div>
+                        </div>
+                    </li>
+                    <!-- SLIDE  -->
+                    <li data-transition="fade" data-slotamount="5" data-masterspeed="700">
+                        <!-- MAIN IMAGE -->
+                        <img src="images/home-sliders/business/slide-02.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+
+						
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption puma-slider__title puma-slider__title-uc-md sft"
+                            data-x="center" 
+                            data-hoffset="0" 
+                            data-y="center" 
+                            data-voffset="-50" 
+                            data-speed="800"
+                            data-start="1200"
+                            data-easing="Power4.easeOut"
+                            data-endspeed="300"
+                            data-endeasing="Power1.easeIn"
+                            data-captionhidden="off"
+                            style="z-index: 4">EASY TO BUILD<br>PERFECT WEBSITE
+                        </div>
+                        
+                        <!-- LAYER NR. 2-->
+                        <div class="tp-caption puma-slider__subtitle-02 sft customout"
+                            data-x="center" 
+                            data-hoffset="0" 
+                            data-y="center" 
+                            data-voffset="60" 
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-speed="1000"
+                            data-start="1300"
+                            data-easing="Back.easeOut"
+                            data-endspeed="500"
+                            data-endeasing="Power4.easeIn"
+                            data-captionhidden="on"
+                            style="z-index: 6">Diam felis laoreet, a sapien nunc fusce non morbi nam 
+
+                        </div>
+                        
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption puma-slider__subtitle sfb"
+                            data-x="center" 
+                            data-hoffset="0" 
+                            data-y="center" 
+                            data-voffset="150"
+                            data-speed="1000"
+                            data-start="1800"
+                            data-easing="Back.easeOut"
+                            data-endspeed="500"
+                            data-endeasing="Power4.easeIn"
+                            data-captionhidden="on"
+                            style="z-index: 8"><a href="#" class="btn btn-default btn-primary sl--btn sl-btn-fwsl">View More</a>
+                        </div>
+                    </li>
+                    <!-- SLIDE  -->
+                    <li data-transition="fade" data-slotamount="5" data-masterspeed="700">
+                        <!-- MAIN IMAGE -->
+                        <img src="images/home-sliders/business/slide-03.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+
+						
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption puma-slider__title puma-slider__title-uc-md sft"
+                            data-x="center" 
+                            data-hoffset="0" 
+                            data-y="center" 
+                            data-voffset="-50" 
+                            data-speed="800"
+                            data-start="1200"
+                            data-easing="Power4.easeOut"
+                            data-endspeed="300"
+                            data-endeasing="Power1.easeIn"
+                            data-captionhidden="off"
+                            style="z-index: 4">EASY TO BUILD<br>PERFECT WEBSITE
+                        </div>
+                        
+                        <!-- LAYER NR. 2-->
+                        <div class="tp-caption puma-slider__subtitle-02 sft customout"
+                            data-x="center" 
+                            data-hoffset="0" 
+                            data-y="center" 
+                            data-voffset="60" 
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-speed="1000"
+                            data-start="1300"
+                            data-easing="Back.easeOut"
+                            data-endspeed="500"
+                            data-endeasing="Power4.easeIn"
+                            data-captionhidden="on"
+                            style="z-index: 6">Diam felis laoreet, a sapien nunc fusce non morbi nam 
+
+                        </div>
+                        
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption puma-slider__subtitle sfb"
+                            data-x="center" 
+                            data-hoffset="-95" 
+                            data-y="center" 
+                            data-voffset="150"
+                            data-speed="1000"
+                            data-start="1800"
+                            data-easing="Back.easeOut"
+                            data-endspeed="500"
+                            data-endeasing="Power4.easeIn"
+                            data-captionhidden="on"
+                            style="z-index: 8"><a href="#" class="btn btn-default btn-secondary sl--btn sl-btn-fwsl sl-btn-left">View More</a>
+                        </div>
+                        
+                        <!-- LAYER NR. 4 -->
+                        <div class="tp-caption puma-slider__subtitle sfb"
+                            data-x="center" 
+                            data-hoffset="95" 
+                            data-y="center" 
+                            data-voffset="150"
+                            data-speed="1000"
+                            data-start="1800"
+                            data-easing="Back.easeOut"
+                            data-endspeed="500"
+                            data-endeasing="Power4.easeIn"
+                            data-captionhidden="on"
+                            style="z-index: 8"><a href="#" class="btn btn-default btn-primary sl--btn sl-btn-fwsl sl-btn-right">Purchase</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    <!--/ Slider Section -->
+
+	<main class="wrapper">
+	
+		<!-- About Us -->
+		<section id="services" class="section-default">
+			<div class="container">
+				<div class="row mb-60">
+					<div class="col-sm-6">
+						<div class="section-title">
+							<div class="sub-title">About Us</div>
+							<h2 class="p-section-title mb-40">You’re In A<br>Good Company</h2>
+						</div>
+						<p>Through successfully managing investments for more than a decade, we have grown from being entrepreneurs with agh successfully managing investments for more than a decade, we have grown from being entrepreneurs </p>
+						<a class="yt-popup btn-video-w-text" href="https://www.youtube.com/watch?v=BsafeSHN_II"><span class="play-btn play-btn-sm"><i class="fa fa-play"></i></span> <span class="text-line">WATCH OUR TRAILER</span></a>
+					</div>
+					<div class="col-sm-6">
+						<div class="row">
+							<div class="col-xs-6">
+								<div class="img-wrap">
+									<img src="images/about/270x457/1.jpg" alt="about" class="img-with-animation is-animated" data-animation="fade-in-from-bottom" data-delay="0">
+								</div>
+							</div>
+							<div class="col-xs-6">
+								<div class="img-wrap">
+									<img src="images/about/270x457/2.jpg" alt="about" class="img-with-animation is-animated" data-animation="fade-in-from-bottom" data-delay="200">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="p-services services-4">
+						<div class="col-sm-4 svc--item">
+							<div class="svc-box svc--box-2">
+                                <h3 class="svc-title">Our Passion</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis eros lobortis, vestibulum turpis ac, pulvinar odio. Praesent vulputate a elit ac mollis. </p>
+                                <a href="#" class="r--more r--more-post"><span class="r-more-txt">Read more <span class="ti-arrow-right"></span></span></a>
+							</div>
+						</div>
+						<div class="col-sm-4 svc--item">
+                            <div class="svc-box svc--box-2">
+                                <h3 class="svc-title">Our Mission</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis eros lobortis, vestibulum turpis ac, pulvinar odio. Praesent vulputate a elit ac mollis. </p>
+                                <a href="#" class="r--more r--more-post"><span class="r-more-txt">Read more <span class="ti-arrow-right"></span></span></a>
+                            </div>
+						</div>
+						<div class="col-sm-4 svc--item">
+                            <div class="svc-box svc--box-2">
+                                <h3 class="svc-title">Our History</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis eros lobortis, vestibulum turpis ac, pulvinar odio. Praesent vulputate a elit ac mollis. </p>
+                                <a href="#" class="r--more r--more-post"><span class="r-more-txt">Read more <span class="ti-arrow-right"></span></span></a>
+                            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Services -->
+		<section class="section-default pb-0 overlay-0 pt-0 bg-img" style="background-image: url(images/awesome-features/4.jpg)">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-7">
+						<div class="slide-features-box">
+							<div class="feature-item blue-bg owl-carousel owl-nav-bottom owl-theme enable-owl-carousel nav-white owl-loaded" data-nav="true" data-loop="true" data-items="1" data-dots="false" data-min480="1" data-min768="1" data-min992="1" data-min1200="1" data-margin="0" data-autoplay="false">
+								<div class="feature-item-inner-wrap">
+									<div class="section-title">
+										<div class="sub-title primary-color">Feature 01</div>
+										<h2 class="p-section-title mb-40 mt-10 text-white">Creative Solution</h2>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipis sed diam nonummy nibh euismod tincidunt Lorem ipsum dolor sit amet, consectetuer adipis sed diam nonummy nibh euismod tincidunt</p>
+									<a href="#" class="btn btn-text btn-white-color has-icon"><span>READ MORE</span> <span class="ti-arrow-right"></span></a>
+								</div>
+								<div class="feature-item-inner-wrap">
+									<div class="section-title">
+										<div class="sub-title primary-color">Feature 02</div>
+										<h2 class="p-section-title mb-40 mt-10 text-white">Creative Studio</h2>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipis sed diam nonummy nibh euismod tincidunt Lorem ipsum dolor sit amet, consectetuer adipis sed diam nonummy nibh euismod tincidunt</p>
+									<a href="#" class="btn btn-text btn-white-color has-icon"><span>READ MORE</span> <span class="ti-arrow-right"></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Our Projects -->
+		<section class="section-default">
+			<div class="container">
+				<div class="row">
+					<ul class="chart--lists chart--col-4 fact-counter clearfix list-unstyled">
+						<li class="chart--list-item">
+							<span class="chart" data-percent="200" data-track-color="false" data-line-width="false" data-size="false"><span class="percent">200</span></span>
+							<span class="chart-description">Happy Clients</span>
+						</li>
+
+						<li class="chart--list-item">
+							<span class="chart" data-percent="150" data-track-color="false" data-line-width="false" data-size="false"><span class="percent">150</span></span>
+							<span class="chart-description">Cups of Coffee</span>
+						</li>
+						
+						<li class="chart--list-item">
+							<span class="chart" data-percent="342" data-track-color="false" data-line-width="false" data-size="false"><span class="percent">342</span></span>
+							<span class="chart-description">Projects Finished</span>
+						</li>
+						
+						<li class="chart--list-item">
+							<span class="chart" data-percent="1000" data-track-color="false" data-line-width="false" data-size="false"><span class="percent">1000</span></span>
+							<span class="chart-description">Tickets Closed</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Testimonials -->
+		<section id="testimonials" class="section-secondary section-bg--blue bg-img overlay-0 pb-65" style="background-image: url(images/ca-testimonial-bg.jpg)">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="client-rate mt-60">
+							<h1 class="fz-80 primary-color fw-600"><span>12.345</span><sub>+</sub></h1>
+							<p>Happy Clients dolor sit amet,<br>consectetuer adipis sed diam<br>nonummy</p>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<div class="testimonials p-testimonial--style-3 p-testimonial-sm">
+							<ul class="p-testimonial--lists owl-carousel owl-theme enable-owl-carousel" data-nav="false" data-loop="true" data-items="2" data-dots="true" data-min480="1" data-min768="2" data-min992="2" data-min1200="2" data-margin="30" data-autoplay="true">
+								<li class="p-testimonial--item">
+									<img src="images/author/2.jpg" alt="testimonial" class="img-circle pull-right">
+									<div class="p-testimonial-inner">
+										<span class="p-testimonial--author">John Doe</span>
+										<cite class="p-testimonial--category">UI/UX DESIGNER IS STUDIO</cite>
+										<p>Lorem ipsum dolor sit ame consec adipisicing elit, sed doeiusmodg hog incididunt ut laboreet</p>	
+									</div>
+								</li>
+								<li class="p-testimonial--item">
+									<img src="images/author/1.jpg" alt="testimonial" class="img-circle pull-right">
+									<div class="p-testimonial-inner">
+										<span class="p-testimonial--author">Salena Gomez</span>
+										<cite class="p-testimonial--category">CO &amp; FOUNDER IS STUDIO</cite>
+										<p>Lorem ipsum dolor sit ame consec adipisicing elit, sed doeiusmodg hog incididunt ut laboreet</p>	
+									</div>
+								</li>
+								<li class="p-testimonial--item">
+									<img src="images/author/2.jpg" alt="testimonial" class="img-circle pull-right">
+									<div class="p-testimonial-inner">
+										<span class="p-testimonial--author">John Doe</span>
+										<cite class="p-testimonial--category">UI/UX DESIGNER IS STUDIO</cite>
+										<p>Lorem ipsum dolor sit ame consec adipisicing elit, sed doeiusmodg hog incididunt ut laboreet</p>	
+									</div>
+								</li>
+								<li class="p-testimonial--item">
+									<img src="images/author/1.jpg" alt="testimonial" class="img-circle pull-right">
+									<div class="p-testimonial-inner">
+										<span class="p-testimonial--author">Salena Gomez</span>
+										<cite class="p-testimonial--category">CO &amp; FOUNDER IS STUDIO</cite>
+										<p>Lorem ipsum dolor sit ame consec adipisicing elit, sed doeiusmodg hog incididunt ut laboreet</p>	
+									</div>
+								</li>
+								<li class="p-testimonial--item">
+									<img src="images/author/2.jpg" alt="testimonial" class="img-circle pull-right">
+									<div class="p-testimonial-inner">
+										<span class="p-testimonial--author">John Doe</span>
+										<cite class="p-testimonial--category">UI/UX DESIGNER IS STUDIO</cite>
+										<p>Lorem ipsum dolor sit ame consec adipisicing elit, sed doeiusmodg hog incididunt ut laboreet</p>	
+									</div>
+								</li>
+								<li class="p-testimonial--item">
+									<img src="images/author/1.jpg" alt="testimonial" class="img-circle pull-right">
+									<div class="p-testimonial-inner">
+										<span class="p-testimonial--author">Salena Gomez</span>
+										<cite class="p-testimonial--category">CO &amp; FOUNDER IS STUDIO</cite>
+										<p>Lorem ipsum dolor sit ame consec adipisicing elit, sed doeiusmodg hog incididunt ut laboreet</p>	
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Pricing Table -->
+		<section id="pricing-table" class="section-default section-bg--grey">
+			<div class="container">
+				<div class="section-title text-center">
+					<div class="sub-title">Pricing Table</div>
+					<h2 class="p-section-title">We Bring The Best Price </h2>
+				</div>
+				<div class="row">
+					<div class="pricing-tables">
+						<div class="col-md-4 is-animated" data-animation="grow-in" data-delay="0">
+							<div class="pricing-table">
+								<div class="price-table">
+									<span class="amount">$30</span>
+									<span class="sub">/hour</span>
+								</div>
+								<h3 class="package-name">Packing 01</h3>
+								<ul class="features">
+									<li>Free Support</li>
+									<li>15 Demos Included</li>
+									<li>Newsletter</li>
+									<li>Working Contact Form</li>
+								</ul>
+								<div class="text-center">
+									<a href="#" class="btn btn-default btn-outline fw-600 btn-border-w2 btn-border-dark">Learn more</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 is-animated" data-animation="grow-in" data-delay="200">
+							<div class="pricing-table">
+								<div class="pricing-badge"><i class="fa fa-star"></i></div>
+								<div class="price-table">
+									<span class="amount">$40</span>
+									<span class="sub">/hour</span>
+								</div>
+								<h3 class="package-name">Packing 02</h3>
+								<ul class="features">
+									<li>Free Support</li>
+									<li>15 Demos Included</li>
+									<li>Newsletter</li>
+									<li>Working Contact Form</li>
+								</ul>
+								<div class="text-center">
+									<a href="#" class="btn btn-default btn-outline fw-600 btn-border-w2 btn-border-dark">Learn more</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 is-animated" data-animation="grow-in" data-delay="400">
+							<div class="pricing-table">
+								<div class="price-table">
+									<span class="amount">$50</span>
+									<span class="sub">/hour</span>
+								</div>
+								<h3 class="package-name">Packing 03</h3>
+								<ul class="features">
+									<li>Free Support</li>
+									<li>15 Demos Included</li>
+									<li>Newsletter</li>
+									<li>Working Contact Form</li>
+								</ul>
+								<div class="text-center">
+									<a href="#" class="btn btn-default btn-outline fw-600 btn-border-w2 btn-border-dark">Learn more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Newsletter Box -->
+		<section class="section-default bg-img dark-overlay overlay-60" style="background-image: url(images/newsletter-section-box-bg.jpg);">
+			<div class="container">
+				<div id="newsletter-box">
+					<div class="row-eq-height row-content-v-center">
+						<div class="col-sm-6 form-white-bg">
+							<form class="puma-form-box mr-0 puma-form-box-left ui-form" id="signupForm" action="#" method="post">
+								<div class="section-title">
+									<div class="sub-title">Newsletter</div>
+									<h2 class="p-section-title mb-20">Sign Up To Our Newsletter</h2>
+								</div>
+								<p class="puma-form-description mb-40">Through successfully managing investments </p>
+								<input class="form-control input-round" id="name" type="text" name="name" placeholder="Your Name" required="required">
+								<input class="form-control input-round" id="email" type="email" name="email" placeholder="Your Email">
+								<button class="btn btn-primary">Submit</button>
+							</form>
+						</div>
+						<div class="col-sm-6 nsl-icon-box bg-overlay-gradient-h overlay-80 bg-img">
+							<div class="nsl-icon text-center">
+								<i class="fa fa-envelope-o"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Clients -->
+		<section id="clients" class="section-default">
+			<div class="container">
+				<div class="row">
+					<div class="p--clients">
+						<div class="clients--item owl-carousel owl-theme enable-owl-carousel" data-nav="false" data-loop="false" data-items="2" data-dots="false" data-min480="2" data-min768="4" data-min992="4" data-min1200="4">
+							<img src="images/clients/1.png" alt="swansight">
+							<img src="images/clients/2.png" alt="pendulum">
+							<img src="images/clients/3.png" alt="22">
+							<img src="images/clients/4.png" alt="sixbase">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer" class="footer_style-2">
+			<div class="container">
+				<div class="row">
+					<div class="footer-02">
+						<div class="footer-widget clearfix">
+							<div class="col-md-6 col-sm-4">
+								<img src="images/logo-img-puma-light.png" alt="logo" class="footer-logo mb-40">
+								<p class="mb-25">14 Tottenham Courtten Road,<br>London, England.</p>
+								<p class="mb-25"><a href="mailto:info@thememove.com">info@thememove.com</a></p>
+								<p class="mb-25"><a href="tel:(102) 6666 8888">T / (102) 6666 8888</a></p>
+							</div>
+							<div class="col-md-2 col-sm-4">
+								<h2 class="footer-widget-title">Company</h2>
+								<ul>
+									<li><a href="#">About Us</a></li>
+									<li><a href="#">Portfolio</a></li>
+									<li><a href="#">Contact Us</a></li>
+									<li><a href="#">FAQ</a></li>
+									<li><a href="#">Blog</a></li>
+								</ul>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<h2 class="footer-widget-title">Subscribe</h2>
+								<p>Get latest updates and offers.</p>
+								<div class="newsletter-form-widget">
+									<form class="nsu-form" id="nsu-form-0" action="" method="post">
+										<p><input class="nsu-field" id="nsu-email-0" type="email" name="" placeholder="Your email address.." required=""></p>
+										<p><button type="submit" id="nsu-submit-0" class="nsu-submit" name="nsu_submit"><span class="ti-arrow-right"></span></button></p>
+									</form>
+								</div>
+								<ul class="social--icons list-inline social-icon-w-text">
+									<li><a href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
+									<li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
+									<li><a href="#"><i class="fa fa-google-plus"></i> Google+</a></li>
+									<li><a href="#"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer--copyright clearfix">
+				<div class="container">
+					<p class="copyright text-center">Copyright &copy; 2017 Puma Theme</p>
+				</div>
+			</div>
+		</footer>
+	</main>
+    
+    <div id="slide-out-menu-area-bg" class="push-content-from-right dark"></div>
+    <div id="slide-out-menu-area" class="puma-content-push-from-right">
+		<div class="off-canvas-menu">
+			<ul class="puma-menu">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Page</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Shop</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+
+    <!-- Main Scripts -->
+    
+    <script type="text/javascript" src="js/rev-slider.js"></script> 
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.dlmenu.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
+    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/imagesLoaded.js"></script>
+    <script type="text/javascript" src="js/waypoint.js"></script>
+    <script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
+    <script type="text/javascript" src="js/YouTubePopUp.jquery.js"></script>      
+    <script type="text/javascript" src="js/jquery.transit.min.js"></script>      
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
